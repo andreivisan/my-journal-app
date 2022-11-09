@@ -10,11 +10,7 @@ function App() {
           <div className="text-center p-10 ">
             <h1 className="text-5xl py-2 font-bold font-vollkorn">MyJournal</h1>
           </div>
-          <div className="flex justify-center gap-16 font-vollkorn">
-            <a href="#">Entries</a>
-            <a href="#">Drafts</a>
-            <a href="#">New Posts</a>
-          </div>
+          
           <div className="py-20 font-mate">
             <ul>
               <li className="flex justify-center gap-52 py-2 text-teal-600">
