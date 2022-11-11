@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/main.css';
+import './index.css';
 import { BrowserRouter as Router } from "react-router-dom";
-
-import Home from './components/Home'
+import Home from './componenets/Home';
 
 
 ReactDOM.render(
