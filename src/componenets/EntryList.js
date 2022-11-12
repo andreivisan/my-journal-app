@@ -15,14 +15,11 @@ class EntryList extends Component {
     }
 
     render() {
-        console.log(this.state.entries);
         return (
             <div className="py-20 font-mate">
                 <ul>
                     {this.state.entries.map(item => (
-                        <li>
-                            <EntryRow entry={item} />
-                        </li>
+                        <EntryRow entry={item} key={item.id}/>
                     ))}
                 </ul>
             </div>
